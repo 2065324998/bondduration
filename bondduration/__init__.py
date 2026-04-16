@@ -9,6 +9,12 @@ from bondduration.immunize import (
 )
 from bondduration.spread import z_spread
 from bondduration.tips import TIPSBond
+from bondduration.callable import (
+    build_rate_tree,
+    price_bond_on_tree,
+    option_adjusted_duration,
+    option_adjusted_convexity,
+)
 from bondduration.daycount import (
     actual_actual,
     thirty_360,
@@ -33,4 +39,8 @@ __all__ = [
     "immunize_three_bonds",
     "z_spread",
     "TIPSBond",
+    "build_rate_tree",
+    "price_bond_on_tree",
+    "option_adjusted_duration",
+    "option_adjusted_convexity",
 ]
