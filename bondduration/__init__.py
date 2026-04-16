@@ -1,4 +1,5 @@
 from bondduration.vanilla import VanillaBond
+from bondduration.zero_coupon import ZeroCouponBond
 from bondduration.cashflows import generate_coupon_schedule, discount_factor
 from bondduration.daycount import (
     actual_actual,
@@ -10,6 +11,7 @@ from bondduration.daycount import (
 
 __all__ = [
     "VanillaBond",
+    "ZeroCouponBond",
     "generate_coupon_schedule",
     "discount_factor",
     "actual_actual",
