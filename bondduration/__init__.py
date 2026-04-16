@@ -7,6 +7,7 @@ from bondduration.immunize import (
     immunize_two_bonds,
     immunize_three_bonds,
 )
+from bondduration.spread import z_spread
 from bondduration.daycount import (
     actual_actual,
     thirty_360,
@@ -29,4 +30,5 @@ __all__ = [
     "portfolio_convexity",
     "immunize_two_bonds",
     "immunize_three_bonds",
+    "z_spread",
 ]
